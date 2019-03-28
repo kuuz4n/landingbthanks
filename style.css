@@ -1,0 +1,101 @@
+.Bitmap {
+    width: 1440px;
+    height: 704px;
+    object-fit: contain;
+    background-image: url(img/bitmap.png),linear-gradient(to bottom, #2a2d34, rgba(42, 45, 52, 0.58));
+    position: relative;
+  }
+
+.header {
+    position: relative;
+    width: 1440px;
+    height: 65px;
+    background-color: #ffffff;
+  }
+  
+  .logo {
+    position: relative;
+    width: 111px;
+    height: 24px;
+    object-fit: contain;
+    margin-left: 144px;
+  }
+
+  .Thanks-for-being-a-p {
+    width: 757px;
+    height: 56px;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 110px;
+  }
+
+  .want-to-get-it-soone {
+    width: 738px;
+    height: 24px;
+    padding:top 16px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    display: inline;
+  }
+
+  .Rectangle {
+    width: 259px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #2950a7;
+  }
+
+  .Rectangle-Copy-2 {
+    width: 259px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #b3cbff;
+  }
+
+  .Rectangle-Copy-3 {
+    width: 259px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #c4c4c4;
+  }
+li{
+  float: left;
+}
+
+.Input-Field---Email {
+  width: 648px;
+  height: 48px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  color: #666666;
+}
+
+button {
+  width: 143px;
+  height: 48px;
+  border-radius: 4px;
+  background-color: #333333;
+}
+
