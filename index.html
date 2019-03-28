@@ -1,45 +1,48 @@
 <!DOCTYPE html>
 </<!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="bootstrap-4.3.1-dist/css/bootstrap.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-    <script src="main.js"></script>
+    <!-- <script src="main.js" /> -->
+    <!-- <script src="bootstrap-4.3.1-dist/js/bootstrap.js" /> -->
 </head>
+
 <body>
-
     <div class="container">
-
-        <div class="header">
-                <div class="logo">
-                <img src="img/logo.png" srcset="img/logo@2x.png 2x, img/logo@3x.png 3x" class="logo"></div>
+        <div class="body-container-header">
+            <ul>
+                <li>
+                    <img src="img/logo.png" srcset="img/logo@2x.png 2x, img/logo@3x.png 3x">
+                </li>
+            </ul>
         </div>
+    </div>
 
-        <div class="Bitmap">
-                <div class="Thanks-for-being-a-p">
-                        <p>Thanks for being a part of this!</p>
-                    <div class="want-to-get-it-soone">
-                            <p>want to get it sooner? Gain early access by inviting 3 friends:</p>
-                        <div class="textbox1">
-                            <ul>
-                            <li><div> <input type="email" class="Rectangle"></div></li>
-                            <li><div> <input type="email" class="Rectangle-Copy-2"></div></li>
-                            <li><div> <input type="email" class="Rectangle-Copy-3"></div></li>
-                            </ul>
-                        </div>
-                        <div>
-                            <ul>
-                            <li><input type="email" class="Input-Field---Email"></li>
-                            <li><input type="button class"button"></li>
-                            </ul>
-                        </div>
-                    </div>
+    <div class="body-container-body">
+        <div class="container">
+            <p>Thanks for being a part of this!</p>
+            <p>want to get it sooner? Gain early access by inviting 3 friends:</p>
+
+            <div class="row">
+                <div class="col-md-4"> <input type="email" class="rectangle"></div>
+                <div class="col-md-4"> <input type="email" class="rectangle2"></div>
+                <div class="col-md-4"> <input type="email" class="rectangle3"></div>
+            </div>
+
+            <div class="row">
+                    <div class="col-md-8"> <input type="email" class="Input-Field---Email"></div>
+                    <div class="col-md-4"> <button class="copylinkbutton"><span class="COPY-LINK">COPY LINK</span></button></div>
                 </div>
         </div>
     </div>
+
 </body>
+
 </html>

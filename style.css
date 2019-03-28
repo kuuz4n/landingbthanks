@@ -1,27 +1,42 @@
-.Bitmap {
-    width: 1440px;
-    height: 704px;
-    object-fit: contain;
-    background-image: url(img/bitmap.png),linear-gradient(to bottom, #2a2d34, rgba(42, 45, 52, 0.58));
-    position: relative;
+.body-container-body {
+    width: 100%;
+    height: 100%;
+    background-image: url(img/bitmap.png);
+    padding: 160px 0 0 0;
+    display: block;
   }
 
-.header {
-    position: relative;
-    width: 1440px;
-    height: 65px;
-    background-color: #ffffff;
-  }
-  
-  .logo {
-    position: relative;
-    width: 111px;
-    height: 24px;
-    object-fit: contain;
-    margin-left: 144px;
+  .body-container-body p{
+    color: #ffff;
+    font-family: Poppins;
+    text-align: center;
   }
 
-  .Thanks-for-being-a-p {
+  .body-container-body p:nth-child(1){
+    font-size: 48px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+  }
+
+  .body-container-body p:nth-child(2){
+    font-size: 16px;
+  }
+.body-container-header {
+    display: inline-block;
+  }
+  .body-container-header img{
+  width:100%;
+  }
+
+  .body-container-header li{
+    list-style-type: none;
+  }
+
+
+  /* .Thanks-for-being-a-p {
     width: 757px;
     height: 56px;
     font-family: Poppins;
@@ -35,7 +50,7 @@
     text-align: center;
     margin: 0 auto;
     padding-top: 110px;
-  }
+  } */
 
   .want-to-get-it-soone {
     width: 738px;
@@ -53,32 +68,29 @@
     display: inline;
   }
 
-  .Rectangle {
-    width: 259px;
+  .rectangle {
+    width: 370px;
     height: 40px;
     border-radius: 4px;
     background-color: #2950a7;
   }
 
-  .Rectangle-Copy-2 {
-    width: 259px;
+  .rectangle2{
+    width: 370px;
     height: 40px;
     border-radius: 4px;
     background-color: #b3cbff;
   }
 
-  .Rectangle-Copy-3 {
-    width: 259px;
+  .rectangle3{
+    width: 370px;
     height: 40px;
     border-radius: 4px;
     background-color: #c4c4c4;
   }
-li{
-  float: left;
-}
 
 .Input-Field---Email {
-  width: 648px;
+  width: 758px;
   height: 48px;
   border-radius: 4px;
   background-color: #ffffff;
@@ -90,12 +102,33 @@ li{
   line-height: normal;
   letter-spacing: 0.1px;
   color: #666666;
+  margin-top: 54px;
+  margin-left: 15px
 }
 
-button {
+.copylinkbutton {
   width: 143px;
   height: 48px;
   border-radius: 4px;
   background-color: #333333;
+  margin-top: 54px ;
+  margin-left: 15px ;
+}
+
+.COPY-LINK {
+  width: 87px;
+  height: 20px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  color: #ffffff;
+}
+
+.container-large {
+  margin-top: 100px;
 }
 
